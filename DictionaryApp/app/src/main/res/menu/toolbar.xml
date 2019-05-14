@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_send"
+        android:title="@string/share"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/send"
+        />
+    <item
+        android:id="@+id/action_paint"
+        android:title="@string/wallpaper"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/paint"
+        />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/help"
+        />
+
+
+</menu>

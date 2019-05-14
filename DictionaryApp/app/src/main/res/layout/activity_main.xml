@@ -1,0 +1,43 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id = "@+id/mainLayout"
+    >
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="edu.quinnipiac.ser210.dictionaryapp.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        tools:layout="@layout/fragment_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:id="@+id/searchword"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity= "center"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:onClick="buttonClickedSearch"
+            android:layout_gravity="center"
+            android:text="@string/search"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
