@@ -11,6 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="edu.quinnipiac.ser210.dictionaryapp.DefiinitionFragment"
-        android:id="@+id/fragment_fact"
+        android:id="@+id/fragment_def"
         tools:layout ="@layout/fragment_definition"/>
 </FrameLayout>
